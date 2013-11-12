@@ -47,28 +47,78 @@ table {
 	border-spacing: 0;
 }
 
-<link href='http://fonts.googleapis.com/css?family=Rokkitt|Bree+Serif|Crimson+Text' rel='stylesheet' type='text/css'>
-
 /* my stylesheets follow below */
-header {
+
+body{
+background-image:url(images/alwyn_velasquez.png)
 }
-#page-container {
-width: 760px;
-margin: auto;
+#container{
+width:750px;
+height:1200px;
+margin-left:150px;
+margin-right:auto;
+padding-top:0px;
+padding-right:0px;
+padding-bottom:0px;
+padding-left:0px;
 }
-nav {font-family:Rockitt;
+#bar{
+background-color:#000000;
+height:40px;
+width:100%;
+}
+#header{
+width:750px;
+padding-top:50px;
+padding-right:0px;
+padding-bottom:0px;
+padding-left:0px;
+margin:0;
+}
+#logo{
+width:103px;
+height:103px;
+vertical-align:top;
+float:left;
+}
+#ul{
+width:500px;
+height:103px;
+font-family:Rokkitt;
+font-size:19px;
+font-weight:bold;
+line-height:23px;
+text-align:right;
+list-style-type:none;
+float:right;
+}
+a{
+text-decoration:none;
+text-align:right;
+}
+#content{
+width:750px;
+padding-top:0px;
+padding-right:0px;
+padding-bottom:0px;
+padding-left:0px;
+float:right;
+}
+h1{
+font-family:Rokkitt;
+font-size:60px;
+font-weight:bold;
+line-height:64px;
+text-align:left;
+margin-top:40px;
+}
+p{
+font-family:Radley, serif;
 font-size:20px;
-line-height: 22px;
+line-height:30px;
+text-align:left;
+margin-top:10px;
 }
-nav li {
-}
-logo{
-}
-section {
-}
-sideNav {
-}
-h1 {
-}
-p {
+#footer{
+margin-top:80px;
 }
